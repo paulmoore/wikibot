@@ -5,7 +5,7 @@
 	"description": "A slackbot that will search for wikipedia articles for you",
 	"license": "http://paulmoore.mit-license.org/",
 	"scripts": {
-		"start": "node --use_strict lib/wikibot.js"
+		"start": "node lib/wikibot.js"
 	},
 	"keywords": [
 		"wikipedia",
