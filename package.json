@@ -1,0 +1,18 @@
+{
+	"name": "wikibot",
+	"version": "1.0.0",
+	"author": "Paul Moore <paul@paul-moore.ca>",
+	"description": "A slackbot that will search for wikipedia articles for you",
+	"license": "http://paulmoore.mit-license.org/",
+	"scripts": {
+		"start": "node --use_strict lib/wikibot.js"
+	},
+	"keywords": [
+		"wikipedia",
+		"slackbot"
+	],
+	"dependencies": {
+		"restify": "*",
+		"node-slack": "*"
+	}
+}
